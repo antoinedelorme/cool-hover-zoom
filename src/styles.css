@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.container:hover {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.myImage {
+  width: 300px;
+  transition: width 0.3s, filter 0.3s;
+  filter: brightness(80%);
+}
+
+.myImage:hover {
+  width: 305px;
+  filter: brightness(100%);
+}
